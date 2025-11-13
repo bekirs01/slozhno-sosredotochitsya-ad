@@ -340,7 +340,7 @@
     grid-row: span 1;
   }
 
-  .topic:nth-child(2) .topic__card{
+  .topic:nth-child(2) .topic__card {
     grid-row: 2 / 3 ;
     grid-column: span 1;
   }
