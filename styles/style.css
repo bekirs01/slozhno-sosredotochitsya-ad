@@ -52,7 +52,6 @@
 
 .header__decoration-dark {
   align-self: flex-start;
-  justify-self: end;
   position: absolute;
   visibility: var(--is-light);
   display: grid;
