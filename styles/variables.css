@@ -1,21 +1,25 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
 
 :root {
-  --navigation-text-color: #ff0070;
-  --navigation-text-color-hover: #ff007066;
-  --header-title-text-color: #db00ff;
+  --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
-  --block-title: #ff0070;
-  --title-text-decor-color: #000028;
-  --text-block-color: #f1b2ce;
-  --decorated-zone-color: #ff0070;
-  --title-text-shadow-color: #ff0070;
+  --accent-color-opacity: #ff007066;
+  --text-color: #f1b2ce;
+  --decoration-color: var(--accent-color);
   --background-color: #000028;
-
-  --header-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-}
-
-@media (width >= 768px) {
-  :root {
-    --header-text-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+  --header1-color: #db00ff;
+  --header2-color: var(--accent-color);
+  --header3-color: var(--background-color);
+  --font-family: 'IBM Plex mono', monospace;
+  --regular-font-size: 18px;
+  --small-line-height: 83%;
+  --regular-line-height: 100%;
+  --large-line-height: 130%;
+  --bold-font-weight: 700;
+  --regular-font-weight: 400;
+  --font-style: normal;
+  --is-light: visible;
 }
