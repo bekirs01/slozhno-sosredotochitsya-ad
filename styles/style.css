@@ -63,7 +63,6 @@
   color: var(--accent-color);
   font-size: var(--regular-font-size);
   display: grid;
-  line-height: 25px;
 }
 
 .header__decoration-dark::after {
